@@ -9,7 +9,7 @@ cask 'synology-drive-client' do
 
   depends_on macos: '>= :el_capitan'
 
-  app 'Synology Drive Client.app'
+  pkg 'Install Synology Drive Client.pkg'
 
   zap trash: [
               '~/Library/Preferences/com.synology.CloudStationUI.plist',
