@@ -7,7 +7,7 @@ cask 'synology-drive-client' do
   name 'Synology Drive Client'
   homepage 'https://www.synology.com/en-us/releaseNote/SynologyDriveClient'
 
-  depends_on macos: '>= 10.11'
+  depends_on macos: '>= :el_capitan'
 
   app 'Synology Drive Client.app'
 
