@@ -16,5 +16,6 @@ cask 'synology-drive-client' do
               '/var/db/receipts/com.synology.CloudStation.bom',
               '/var/db/receipts/com.synology.CloudStation.plist',
              ]
- 
+
+
 end
