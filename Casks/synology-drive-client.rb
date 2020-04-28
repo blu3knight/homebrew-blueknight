@@ -11,11 +11,6 @@ cask 'synology-drive-client' do
 
   pkg 'Install Synology Drive Client.pkg'
 
-  zap trash: [
-              '~/Library/Preferences/com.synology.CloudStationUI.plist',
-              '/var/db/receipts/com.synology.CloudStation.bom',
-              '/var/db/receipts/com.synology.CloudStation.plist',
-             ]
-
+  uninstall pkgutil: "/Applications/Synology Drive Client.app/Contents/SharedSupport/Remove Synology Drive Client.app"
 
 end
