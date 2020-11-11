@@ -1,6 +1,6 @@
 cask 'notebooks-bk' do
   version '1.4.5'
-  sha256 '11571a75a89ba5aac2f846e95e3d3520d3c47b034b8df2166e93d98a7dde310a'
+  sha256 '4bcf8f705cf1911b2b907e188eb0ae22168c3c15cd9384935a6823a3665a73b2'
 
 #  url 'https://notebooksapp.com/Download/Notebooks.zip'
   url "https://binhost.technologysecure.com/homebrew/Notebooks-#{version}.dmg"
