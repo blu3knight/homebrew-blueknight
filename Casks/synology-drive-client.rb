@@ -1,6 +1,6 @@
 cask 'synology-drive-client' do
-  version '2.0.2-11078'
-  sha256 '196865f411631103958d71e3dc0c640909e53ef5e3cb44013a22d66ae4f1ec85'
+  version '2.0.4-11112'
+  sha256 '19b8f03ece1dc8443da1e6df469d2ddf8916c4d2d15d7c9a04c0e84deb93c33b'
 
   url "https://binhost.technologysecure.com/homebrew/synology-drive-client-#{version}.dmg"
   appcast 'https://archive.synology.com/download/Tools/SynologyDriveClient/'
