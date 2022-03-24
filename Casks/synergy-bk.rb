@@ -1,4 +1,4 @@
-cask "synergy" do
+cask "synergy-bk" do
   arch = Hardware::CPU.intel? ? "_x86-64" : "-arm64"
 
   version "1.14.3,218fa800"
