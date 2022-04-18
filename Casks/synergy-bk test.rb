@@ -25,4 +25,3 @@ cask "synergy-bk-test" do
 
   app "Synergy.app"
 end
-
