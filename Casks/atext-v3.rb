@@ -1,4 +1,4 @@
-cask "atext-bk" do
+cask "atext-v3" do
   version "3.1.2"
   sha256 "7bed89fffa520a84c6ab4431ab9e9b631da8e9dd8cad194af4a2fbe8fe299558"
 
