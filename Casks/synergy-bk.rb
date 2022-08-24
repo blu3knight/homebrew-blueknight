@@ -1,13 +1,13 @@
 cask "synergy-bk" do
   arch = Hardware::CPU.intel? ? "_x86-64" : "-arm64"
 
-  version "1.14.3,218fa800"
+  version "1.14.5,1b7140f2"
 
-  if Hardware::CPU.intel?
-    sha256 "1247917397174014840f5c24b583ec76c6a7c456c0bd6065ad2337334ff84667"
-  else
-    sha256 "7b0b8f202da8be7ba33dec86db1fce004be029a56f20759388349c480a934b26"
-  end
+  #if Hardware::CPU.intel?
+  #  sha256 "cf44f20d148df9fc2ff2e9b34a3fc7a8e2b20c6bffb045edc92f3a14ed9ab447"
+  #else
+  #  sha256 "7b0b8f202da8be7ba33dec86db1fce004be029a56f20759388349c480a934b26"
+  #end
 
   #url "https://api2.prod.symless.com/aws-downloads/synergy/v#{version.csv.first.major}/synergy/v#{version.csv.first.major}-core-standard/#{version.csv.first}-stable.#{version.csv.second}/synergy_#{version.csv.first}-stable.#{version.csv.second}_macos#{arch}.dmg"
   url "https://binhost.yuryweb.com/homebrew/synergy_#{version.csv.first}-stable.#{version.csv.second}_macos#{arch}.dmg"
