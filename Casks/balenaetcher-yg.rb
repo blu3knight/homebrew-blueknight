@@ -1,10 +1,22 @@
 cask "balenaetcher-yg" do
-  version "3.2.1,13271"
-#  sha256 "6db43fd276471a0dd9d7d8d60c719837d5ef9390210ff6147ec40ccaa9bca8aa"
-   url "https://github.com/balena-io/etcher/releases/download/v#{version}/balenaEtcher-#{version}.dmg"
-  name "Balena Etcher"
-  homepage "https://www.balena.io/etcher/"
+  version 1.13.3
+  sha256 :no_check
 
-  pkg "Install balenaEtcher.app"
+  url "https://github.com/balena-io/etcher/releases/download/#{version}/balenaEtcher-#{version}.dmg",
+      verified: "github.com/balena-io/etcher/"
+  name "Etcher"
+  desc "Tool to flash OS images to SD cards & USB drives"
+  homepage "https://balena.io/etcher"
+
+  app "balenaEtcher.app"
+
+  uninstall quit: "io.balena.etcher.*"
+
+  zap trash: [
+    "~/Library/Application Support/balena-etcher",
+    "~/Library/Preferences/io.balena.etcher.helper.plist",
+    "~/Library/Preferences/io.balena.etcher.plist",
+    "~/Library/Saved Application State/io.balena.etcher.savedState",
+  ]
 
 end
