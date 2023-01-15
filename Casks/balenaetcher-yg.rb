@@ -2,7 +2,7 @@ cask "balenaetcher-yg" do
   version "1.13.3"
 #  sha256 :no_check
 
-  url "https://github.com/balena-io/etcher/releases/download/#{version}/balenaEtcher-#{version}.dmg",
+  url "https://github.com/balena-io/etcher/releases/download/v#{version}/balenaEtcher-#{version}.dmg",
       verified: "github.com/balena-io/etcher/"
   name "Etcher"
   desc "Tool to flash OS images to SD cards & USB drives"
