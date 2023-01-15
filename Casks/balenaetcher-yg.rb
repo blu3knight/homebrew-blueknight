@@ -1,6 +1,6 @@
 cask "balenaetcher-yg" do
   version "1.13.3"
-  sha256 :no_check
+#  sha256 :no_check
 
   url "https://github.com/balena-io/etcher/releases/download/#{version}/balenaEtcher-#{version}.dmg",
       verified: "github.com/balena-io/etcher/"
