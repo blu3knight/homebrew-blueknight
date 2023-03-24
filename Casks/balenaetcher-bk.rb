@@ -1,4 +1,4 @@
-cask "balenaetcher-yg" do
+cask "balenaetcher-bk" do
   version "1.18.6"
   #sha256 "1992c7bef9b9540071b76794828fc541798bdf83cd81a5c4d42eb60704ed1917"
 
