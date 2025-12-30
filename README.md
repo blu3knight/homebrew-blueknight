@@ -2,7 +2,11 @@
 
 ## About 
 
-This repository is a history of the tools that I use that is deleted from the homebrew and homebrew cask directory. It does not mean that there is any gaurantee of updates to this directory whatsoever. 
+This personal Homebrew tap serves as an archival repository of tools and formulas that the maintainer has previously used or developed, which are no longer available in the official Homebrew or Homebrew Cask repositires. 
+
+It is intended as a historical record rather than an actively maintained source, with no guarantees of future updates or support. Users are advised to consult official Homebrew taps for current, supported software. 
+
+Since I use the software personally I will try to update this, but there is no timeline associated with it. 
 
 ## Why?
 
