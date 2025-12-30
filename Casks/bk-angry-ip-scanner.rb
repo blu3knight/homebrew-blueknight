@@ -1,4 +1,4 @@
-cask "angry-ip-scanner-bk" do
+cask "bk-angry-ip-scanner" do
   arch arm: "Arm64", intel: "X86"
 
   version "3.9.3"
