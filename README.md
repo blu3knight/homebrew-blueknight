@@ -6,7 +6,9 @@ This personal Homebrew tap serves as an archival repository of tools and formula
 
 It is intended as a historical record rather than an actively maintained source, with no guarantees of future updates or support. Users are advised to consult official Homebrew taps for current, supported software. 
 
-Since I use the software personally I will try to update this, but there is no timeline associated with it. 
+Since I use the software personally I will try to update this, but there is no timeline associated with it.
+
+The Intel casks are disabled. I still own Intel Macs and want to be able to update the files on them using Homebrew. 
 
 ## Why?
 
