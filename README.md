@@ -19,3 +19,11 @@ A lot of time the tools are removed because they are on a private server. I migh
 ## Updates
 
 There are none. If I have time I will update the acask informaiton.
+
+## Casks
+
+| Homebrew Name | Software Name | Software Version | Arm64 | x86_64 | Software URL | Instructions | Update Date |
+| :--- | :--- | :--- | :---: | :---: | :--- | :---: | :---: |
+| **bk-double-commander** | Double Commander | 1.2.8 | ✅ | ✅ | [https://doublecmd.sourceforge.io/](https://doublecmd.sourceforge.io/) | [dc-readme.md](Instructions/dc-readme.md) | 2026-09-07 |
+| **bk-angry-ip-scanner** | Angry IP Scanner | 3.9.3 | ✅ | ✅ | [https://angryip.org/](https://angryip.org/) | - | - |
+| **atext-v2** | Atext Version 2 | 2.40.5 | ✅ | ✅ | [https://www.trankynam.com/atext/](https://www.trankynam.com/atext/) | - | - |
